@@ -1,0 +1,20 @@
+{
+  "description": "PI API MCP 服务器允许 Claude 和其他 AI 助手通过模型上下文协议(MCP)安全地访问和管理 PI 仪表板资源。",
+  "vendor": "mingzilla（https://smithery.ai/server/@mingzilla/pi-api-mcp-server）",
+  "license": "未明确提及",
+  "runtime": "node, docker",
+  "environmentVariables": {
+    "API_URL": {
+      "description": "PI API 的基础 URL，例如 http://localhost:8224/pi/api/v2",
+      "required": true
+    },
+    "PI_API_KEY": {
+      "description": "用于认证的 PI API 密钥",
+      "required": true
+    }
+  },
+  "package_name": "@mingzilla/pi-api-mcp-server",
+  "server_name": "mingzilla@pi-api-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/mingzilla@pi-api-mcp-server",
+  "sourceUrl": "https://github.com/mingzilla/pi-api-mcp-server"
+}

@@ -1,0 +1,11 @@
+{
+  "description": "MCP Server 是实现模型上下文协议 (MCP) 的服务器端组件，用于连接大型语言模型与外部数据源、工具和资源。",
+  "vendor": "Anthropic (https://modelcontextprotocol.io/introduction)",
+  "license": "未明确提及",
+  "runtime": "node 或 python",
+  "environmentVariables": {},
+  "package_name": "未明确提及",
+  "server_name": "MCPHubCloud@awesome-mcp",
+  "homepage": "https://mcpservers.cn/servers/MCPHubCloud@awesome-mcp",
+  "sourceUrl": "https://github.com/MCPHubCloud/awesome-mcp"
+}

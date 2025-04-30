@@ -1,0 +1,16 @@
+{
+  "description": "一个跨平台文件搜索服务器，为 Claude Desktop 等应用提供快速文件搜索功能。",
+  "vendor": "Model Context Protocol（https://github.com/modelcontextprotocol）",
+  "license": "MIT",
+  "runtime": "node, python",
+  "environmentVariables": {
+    "EVERYTHING_SDK_PATH": {
+      "description": "Windows 上 Everything SDK 的 DLL 文件路径。",
+      "required": true
+    }
+  },
+  "package_name": "mcp-server-everything-search",
+  "server_name": "mamertofabian@mcp-everything-search",
+  "homepage": "https://mcpservers.cn/servers/mamertofabian@mcp-everything-search",
+  "sourceUrl": "https://github.com/mamertofabian/mcp-everything-search"
+}

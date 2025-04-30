@@ -1,0 +1,16 @@
+{
+  "description": "MCP server for Wuying AgentBay integration",
+  "vendor": "Alibaba Cloud (https://www.aliyun.com)",
+  "sourceUrl": "https://github.com/wuying/agentbay-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/wuying-mcp-server",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "APIKEY": {
+      "description": "API key for Wuying AgentBay access",
+      "required": true
+    }
+  },
+  "package_name": "wuying-agentbay-mcp-server",
+  "server_name": "wuying-mcp-server"
+} 

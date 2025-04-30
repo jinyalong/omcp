@@ -1,0 +1,12 @@
+{
+  "description": "Playwright MCP 是一个浏览器自动化服务器，允许 LLM 通过结构化的可访问性快照与网页交互，无需依赖截图或视觉模型。",
+  "vendor": "Playwright (https://playwright.dev)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+  },
+  "package_name": "@playwright/mcp",
+  "server_name": "microsoft@playwright-mcp",
+  "homepage": "https://mcpservers.cn/servers/microsoft@playwright-mcp",
+  "sourceUrl": "https://github.com/microsoft/playwright-mcp"
+}

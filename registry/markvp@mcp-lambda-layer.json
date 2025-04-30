@@ -1,0 +1,11 @@
+{
+  "description": "一个使您能够在 AWS Lambda 上运行支持 SSE 的 MCP（模型上下文协议）服务器的 Node.js 包。",
+  "vendor": "MarkVP",
+  "license": "MIT",
+  "runtime": "Node.js 18.x+",
+  "environmentVariables": {},
+  "package_name": "@markvp/mcp-lambda-layer",
+  "server_name": "markvp@mcp-lambda-layer",
+  "homepage": "https://mcpservers.cn/servers/markvp@mcp-lambda-layer",
+  "sourceUrl": "https://github.com/markvp/mcp-lambda-layer"
+}

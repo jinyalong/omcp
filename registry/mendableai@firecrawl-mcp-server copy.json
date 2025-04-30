@@ -1,0 +1,44 @@
+{
+  "description": "Firecrawl MCP 是一个实现模型上下文协议(MCP)的服务器，提供强大的网页抓取功能。",
+  "vendor": "FireCrawl（https://www.firecrawl.dev/）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "FIRECRAWL_API_KEY": {
+      "description": "您的 FireCrawl API 密钥",
+      "required": true
+    },
+    "FIRECRAWL_API_URL": {
+      "description": "自托管实例的自定义 API 端点",
+      "required": false
+    },
+    "FIRECRAWL_RETRY_MAX_ATTEMPTS": {
+      "description": "最大重试次数，默认为3",
+      "required": false
+    },
+    "FIRECRAWL_RETRY_INITIAL_DELAY": {
+      "description": "初始重试延迟时间（毫秒），默认为1000ms",
+      "required": false
+    },
+    "FIRECRAWL_RETRY_MAX_DELAY": {
+      "description": "最大重试延迟时间（毫秒），默认为10000ms",
+      "required": false
+    },
+    "FIRECRAWL_RETRY_BACKOFF_FACTOR": {
+      "description": "重试退避因子，默认为2",
+      "required": false
+    },
+    "FIRECRAWL_CREDIT_WARNING_THRESHOLD": {
+      "description": "信用警告阈值，默认为1000",
+      "required": false
+    },
+    "FIRECRAWL_CREDIT_CRITICAL_THRESHOLD": {
+      "description": "信用严重阈值，默认为100",
+      "required": false
+    }
+  },
+  "package_name": "firecrawl-mcp",
+  "server_name": "mendableai@firecrawl-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/mendableai@firecrawl-mcp-server",
+  "sourceUrl": "https://github.com/mendableai/firecrawl-mcp-server"
+}

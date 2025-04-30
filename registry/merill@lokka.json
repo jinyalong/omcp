@@ -1,0 +1,24 @@
+{
+  "description": "Lokka是一个Microsoft Graph API的MCP服务器，支持通过自然语言查询和管理Microsoft 365租户资源。",
+  "vendor": "merill (https://github.com/merill)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "TENANT_ID": {
+      "description": "Microsoft Entra租户ID",
+      "required": true
+    },
+    "CLIENT_ID": {
+      "description": "Entra应用注册的客户端ID",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description": "Entra应用注册生成的客户端密钥",
+      "required": true
+    }
+  },
+  "package_name": "未明确提及",
+  "server_name": "merill@lokka",
+  "homepage": "https://mcpservers.cn/servers/merill@lokka",
+  "sourceUrl": "https://github.com/merill/lokka"
+}

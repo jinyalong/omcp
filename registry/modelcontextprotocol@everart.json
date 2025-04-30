@@ -1,0 +1,16 @@
+{
+  "description": "基于 EverArt API 的 AI 图像生成工具，可与 Claude Desktop 集成。",
+  "vendor": "Model Context Protocol（https://github.com/modelcontextprotocol）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "EVERART_API_KEY": {
+      "description": "EverArt API 的密钥，用于图像生成服务。",
+      "required": true
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-everart",
+  "server_name": "modelcontextprotocol@everart",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@everart",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/everart"
+}

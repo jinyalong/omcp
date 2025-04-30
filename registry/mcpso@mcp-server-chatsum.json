@@ -1,0 +1,16 @@
+{
+  "description": "这是一个可以自动总结您聊天消息的 MCP 服务器插件。",
+  "vendor": "idoubi (https://bento.me/idoubi)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "CHAT_DB_PATH": {
+      "description": "聊天数据库路径，用于存储和查询聊天记录",
+      "required": true
+    }
+  },
+  "package_name": "未明确提及",
+  "server_name": "mcpso@mcp-server-chatsum",
+  "homepage": "https://mcpservers.cn/servers/mcpso@mcp-server-chatsum",
+  "sourceUrl": "https://github.com/mcpso/mcp-server-chatsum"
+}

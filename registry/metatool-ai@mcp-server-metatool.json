@@ -1,0 +1,20 @@
+{
+  "description": "MetaTool MCP服务器是一个代理，连接多个MCP服务器并将工具调用转发到适当的目标。",
+  "vendor": "MetaTool AI (https://github.com/metatool-ai)",
+  "license": "Apache License 2.0",
+  "runtime": "node",
+  "environmentVariables": {
+    "METATOOL_API_KEY": {
+      "description": "从metatool-app获取的API密钥",
+      "required": true
+    },
+    "METATOOL_API_BASE_URL": {
+      "description": "自托管metatool实例的API基础URL",
+      "required": false
+    }
+  },
+  "package_name": "mcp-server-metatool",
+  "server_name": "metatool-ai@mcp-server-metatool",
+  "homepage": "https://mcpservers.cn/servers/metatool-ai@mcp-server-metatool",
+  "sourceUrl": "https://github.com/metatool-ai/mcp-server-metatool"
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Metoro MCP 服务器允许您通过 Claude 桌面应用程序与 Kubernetes 集群进行交互。",
+  "vendor": "Metoro (https://metoro.io/)",
+  "license": "MIT",
+  "runtime": "go",
+  "environmentVariables": {
+    "METORO_AUTH_TOKEN": {
+      "description": "用于身份认证的令牌，可以从 Metoro 设置中获取或使用默认演示集群令牌。",
+      "required": true
+    },
+    "METORO_API_URL": {
+      "description": "Metoro API 的基础 URL，指向生产环境或演示集群。",
+      "required": true
+    }
+  },
+  "package_name": "github.com/metoro-io/metoro-mcp-server",
+  "server_name": "metoro-io@metoro-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/metoro-io@metoro-mcp-server",
+  "sourceUrl": "https://github.com/metoro-io/metoro-mcp-server"
+}

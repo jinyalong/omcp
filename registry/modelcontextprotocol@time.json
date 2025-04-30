@@ -1,0 +1,16 @@
+{
+  "description": "MCP 时间服务器允许 LLM 获取当前时间并在不同时区间转换时间，支持 IANA 时区名称。",
+  "vendor": "modelcontextprotocol (https://github.com/modelcontextprotocol)",
+  "license": "MIT",
+  "runtime": "python",
+  "environmentVariables": {
+    "local-timezone": {
+      "description": "自定义系统时区，例如 America/New_York。",
+      "required": false
+    }
+  },
+  "package_name": "mcp-server-time",
+  "server_name": "modelcontextprotocol@time",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@time",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/time"
+}

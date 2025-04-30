@@ -1,0 +1,11 @@
+{
+  "description": "对模型上下文协议（MCP）客户端、服务器和工具的细粒度控制。",
+  "vendor": "模型上下文协议组织（https://npmjs.org/package/mcpgod）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "mcpgod",
+  "server_name": "mcpgod@cli",
+  "homepage": "https://mcpservers.cn/servers/mcpgod@cli",
+  "sourceUrl": "https://github.com/mcpgod/cli"
+}

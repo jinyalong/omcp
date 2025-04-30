@@ -1,0 +1,56 @@
+{
+  "description": "Kokoro文本转语音(TTS) MCP服务器，可将文本转换为高质量MP3文件并支持自动上传到S3存储桶。",
+  "vendor": "thewh1teagle (https://github.com/thewh1teagle)",
+  "license": "未明确提及",
+  "runtime": "python",
+  "environmentVariables": {
+    "TTS_VOICE": {
+      "description": "指定TTS语音类型",
+      "required": true
+    },
+    "TTS_SPEED": {
+      "description": "指定TTS语速",
+      "required": true
+    },
+    "TTS_LANGUAGE": {
+      "description": "指定TTS语言",
+      "required": true
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "description": "AWS访问密钥ID，用于S3上传",
+      "required": false
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "AWS秘密访问密钥，用于S3上传",
+      "required": false
+    },
+    "AWS_REGION": {
+      "description": "AWS区域配置",
+      "required": false
+    },
+    "AWS_S3_FOLDER": {
+      "description": "S3存储桶中的目标文件夹",
+      "required": false
+    },
+    "S3_ENABLED": {
+      "description": "是否启用S3上传功能",
+      "required": false
+    },
+    "MP3_FOLDER": {
+      "description": "本地MP3文件存储路径",
+      "required": true
+    },
+    "MP3_RETENTION_DAYS": {
+      "description": "设置本地MP3文件的保留天数",
+      "required": false
+    },
+    "DELETE_LOCAL_AFTER_S3_UPLOAD": {
+      "description": "是否在S3上传后删除本地文件",
+      "required": false
+    }
+  },
+  "package_name": "未明确提及",
+  "server_name": "mberg@kokoro-tts-mcp",
+  "homepage": "https://mcpservers.cn/servers/mberg@kokoro-tts-mcp",
+  "sourceUrl": "https://github.com/mberg/kokoro-tts-mcp"
+}

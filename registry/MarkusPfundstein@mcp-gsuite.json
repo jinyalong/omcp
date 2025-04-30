@@ -1,0 +1,32 @@
+{
+  "description": "MCP-Gsuite 是一个用于与 Google Gmail 和日历交互的服务器。",
+  "vendor": "smithery.ai (https://smithery.ai)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "GOOGLE_CLIENT_ID": {
+      "description": "Google OAuth 客户端 ID，用于授权访问 Gmail 和日历 API。",
+      "required": true
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "description": "Google OAuth 客户端密钥，用于授权访问 Gmail 和日历 API。",
+      "required": true
+    },
+    "REDIRECT_URI": {
+      "description": "OAuth 重定向 URI，通常为 http://localhost:4100/code。",
+      "required": true
+    },
+    "ACCOUNTS_FILE": {
+      "description": "包含账户信息的 JSON 文件路径，例如 .accounts.json。",
+      "required": false
+    },
+    "CREDENTIALS_DIR": {
+      "description": "存储 OAuth 凭据的目录路径。",
+      "required": false
+    }
+  },
+  "package_name": "@smithery/cli",
+  "server_name": "MarkusPfundstein@mcp-gsuite",
+  "homepage": "https://mcpservers.cn/servers/MarkusPfundstein@mcp-gsuite",
+  "sourceUrl": "https://github.com/MarkusPfundstein/mcp-gsuite"
+}

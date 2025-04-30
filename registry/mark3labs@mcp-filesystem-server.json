@@ -1,0 +1,11 @@
+{
+  "description": "一个用 Go 语言实现的文件系统操作 MCP 服务器，支持文件和目录管理。",
+  "vendor": "mark3labs (https://smithery.ai/server/@mark3labs/mcp-filesystem-server)",
+  "license": "MIT",
+  "runtime": "go",
+  "environmentVariables": {},
+  "package_name": "github.com/mark3labs/mcp-filesystem-server",
+  "server_name": "mark3labs@mcp-filesystem-server",
+  "homepage": "https://mcpservers.cn/servers/mark3labs@mcp-filesystem-server",
+  "sourceUrl": "https://github.com/mark3labs/mcp-filesystem-server"
+}

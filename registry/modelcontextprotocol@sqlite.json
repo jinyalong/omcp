@@ -1,0 +1,16 @@
+{
+  "description": "SQLite MCP 服务器通过 MCP 协议提供数据库交互和商业智能功能，可执行 SQL 查询、分析业务数据并自动生成洞察备忘录。",
+  "vendor": "未明确提及（可能是社区项目）",
+  "license": "MIT",
+  "runtime": "python",
+  "environmentVariables": {
+    "db-path": {
+      "description": "指定 SQLite 数据库文件路径",
+      "required": true
+    }
+  },
+  "package_name": "mcp-server-sqlite",
+  "server_name": "modelcontextprotocol@sqlite",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@sqlite",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/sqlite"
+}

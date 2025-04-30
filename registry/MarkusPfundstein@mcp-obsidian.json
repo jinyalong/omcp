@@ -1,0 +1,16 @@
+{
+  "description": "MCP服务器让Claude能够与您的Obsidian仓库互动，实现文件检索、搜索和内容修改等功能。",
+  "vendor": "glama.ai (https://glama.ai/mcp/servers/3wko1bhuek)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "OBSIDIAN_API_KEY": {
+      "description": "Obsidian API密钥，用于与Obsidian仓库交互。",
+      "required": true
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-obsidian",
+  "server_name": "MarkusPfundstein@mcp-obsidian",
+  "homepage": "https://mcpservers.cn/servers/MarkusPfundstein@mcp-obsidian",
+  "sourceUrl": "https://github.com/MarkusPfundstein/mcp-obsidian"
+}

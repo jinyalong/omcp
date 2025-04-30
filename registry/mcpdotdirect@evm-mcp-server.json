@@ -1,0 +1,11 @@
+{
+  "description": "EVM MCP 服务器是一个让 AI 代理能够与 30+ 以太坊兼容网络交互的模型上下文协议服务器。",
+  "vendor": "mcpdotdirect (https://github.com/mcpdotdirect/mcp-evm-server)",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "@mcpdotdirect/evm-mcp-server",
+  "server_name": "mcpdotdirect@evm-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/mcpdotdirect@evm-mcp-server",
+  "sourceUrl": "https://github.com/mcpdotdirect/evm-mcp-server"
+}

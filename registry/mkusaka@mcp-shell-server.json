@@ -1,0 +1,11 @@
+{
+  "description": "MCP Shell 服务器是一个桥接工具，允许 AI 代理通过模型上下文协议(MCP)安全地执行 shell 命令。",
+  "vendor": "mkusaka（https://github.com/mkusaka/mcp-shell-server）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "@mkusaka/mcp-shell-server",
+  "server_name": "mkusaka@mcp-shell-server",
+  "homepage": "https://mcpservers.cn/servers/mkusaka@mcp-shell-server",
+  "sourceUrl": "https://github.com/mkusaka/mcp-shell-server"
+}

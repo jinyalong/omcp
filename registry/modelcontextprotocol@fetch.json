@@ -1,0 +1,11 @@
+{
+  "description": "MCP Fetch 是一个网页内容抓取服务器，使大型语言模型能够从互联网检索网页内容并转换为易读的 Markdown 格式。",
+  "vendor": "Model Context Protocol (https://github.com/modelcontextprotocol)",
+  "license": "MIT",
+  "runtime": "python",
+  "environmentVariables": {},
+  "package_name": "mcp-server-fetch",
+  "server_name": "modelcontextprotocol@fetch",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@fetch",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"
+}

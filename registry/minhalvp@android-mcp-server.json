@@ -1,0 +1,16 @@
+{
+  "description": "Android MCP 服务器通过 ADB 提供对 Android 设备的编程控制。",
+  "vendor": "minhalvp（https://github.com/minhalvp）",
+  "license": "未明确提及",
+  "runtime": "python",
+  "environmentVariables": {
+    "device.name": {
+      "description": "从 'adb devices' 获取的设备标识符",
+      "required": true
+    }
+  },
+  "package_name": "未明确提及",
+  "server_name": "minhalvp@android-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/minhalvp@android-mcp-server",
+  "sourceUrl": "https://github.com/minhalvp/android-mcp-server"
+}

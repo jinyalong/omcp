@@ -1,0 +1,16 @@
+{
+  "description": "Google Maps MCP 服务器为 Claude 提供地理定位、导航和地点信息服务。",
+  "vendor": "Model Context Protocol（https://modelcontextprotocol.ai/）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "GOOGLE_MAPS_API_KEY": {
+      "description": "Google Maps API 密钥，用于访问 Google Maps 的服务。",
+      "required": true
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-google-maps",
+  "server_name": "modelcontextprotocol@google-maps",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@google-maps",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/google-maps"
+}

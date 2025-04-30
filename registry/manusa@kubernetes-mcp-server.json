@@ -1,0 +1,11 @@
+{
+  "description": "Kubernetes MCP 服务器是一个支持 Kubernetes 和 OpenShift 集群管理的模型上下文协议实现，无需安装额外依赖。",
+  "vendor": "manusa（https://github.com/manusa）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "kubernetes-mcp-server",
+  "server_name": "manusa@kubernetes-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/manusa@kubernetes-mcp-server",
+  "sourceUrl": "https://github.com/manusa/kubernetes-mcp-server"
+}

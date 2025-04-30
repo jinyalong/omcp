@@ -1,0 +1,22 @@
+{
+  "description": "这是一个允许 Claude 安全地读取、写入和管理文件的文件系统操作 MCP 服务。",
+  "vendor": "Anthropic, PBC (https://anthropic.com)",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "@modelcontextprotocol/server-filesystem",
+  "server_name": "modelcontextprotocol@filesystem",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@filesystem",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+  "configuration": {
+    "directories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "directory-path"
+      },
+      "description": "请输入允许访问的目录路径",
+      "default": ["~"]
+    }
+  }
+}

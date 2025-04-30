@@ -1,0 +1,32 @@
+{
+  "description": "CLI MCP 服务器允许 LLM 安全地执行命令行操作，具有完善的安全特性。",
+  "vendor": "Model Context Protocol（https://modelcontextprotocol.ai/）",
+  "license": "MIT",
+  "runtime": "python",
+  "environmentVariables": {
+    "ALLOWED_DIR": {
+      "description": "允许的操作目录路径",
+      "required": true
+    },
+    "ALLOWED_COMMANDS": {
+      "description": "允许执行的命令列表，逗号分隔；设置为 'all' 允许所有命令",
+      "required": false
+    },
+    "ALLOWED_FLAGS": {
+      "description": "允许的命令标志列表，逗号分隔；设置为 'all' 允许所有标志",
+      "required": false
+    },
+    "MAX_COMMAND_LENGTH": {
+      "description": "单个命令的最大长度限制",
+      "required": false
+    },
+    "COMMAND_TIMEOUT": {
+      "description": "命令执行的超时时间（秒）",
+      "required": false
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-cli-mcp",
+  "server_name": "MladenSU@cli-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/MladenSU@cli-mcp-server",
+  "sourceUrl": "https://github.com/MladenSU/cli-mcp-server"
+}

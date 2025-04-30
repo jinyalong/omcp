@@ -1,0 +1,11 @@
+{
+  "description": "Redis MCP 服务器使 LLM 能够通过标准化工具与 Redis 键值存储进行交互。",
+  "vendor": "Model Context Protocol（https://modelcontextprotocol.ai/）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "@modelcontextprotocol/server-redis",
+  "server_name": "modelcontextprotocol@redis",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@redis",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/redis"
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Ghost MCP 服务器允许您通过 Claude 等 LLM 接口与 Ghost CMS 交互，提供安全且全面的博客管理功能。",
+  "vendor": "MFYDev（https://github.com/mfydev）",
+  "license": "未明确提及",
+  "runtime": "python",
+  "environmentVariables": {
+    "GHOST_API_URL": {
+      "description": "您的 Ghost 管理 API URL",
+      "required": true
+    },
+    "GHOST_STAFF_API_KEY": {
+      "description": "您的 Ghost 员工 API 密钥",
+      "required": true
+    }
+  },
+  "package_name": "@MFYDev/ghost-mcp",
+  "server_name": "MFYDev@ghost-mcp",
+  "homepage": "https://mcpservers.cn/servers/MFYDev@ghost-mcp",
+  "sourceUrl": "https://github.com/MFYDev/ghost-mcp"
+}

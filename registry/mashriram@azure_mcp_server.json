@@ -1,0 +1,28 @@
+{
+  "description": "一个使 Claude 能够与 Azure Blob 存储和 Cosmos DB (NoSQL API) 服务交互的 MCP 服务器。",
+  "vendor": "smithery.ai (https://smithery.ai)",
+  "license": "未明确提及",
+  "runtime": "uv（通过配置文件指定）",
+  "environmentVariables": {
+    "AZURE_STORAGE_ACCOUNT_URL": {
+      "description": "Azure Blob 存储账户 URL",
+      "required": true
+    },
+    "AZURE_COSMOSDB_ENDPOINT": {
+      "description": "Azure Cosmos DB 的终端节点",
+      "required": true
+    },
+    "AZURE_COSMOSDB_KEY": {
+      "description": "Azure Cosmos DB 的访问密钥",
+      "required": true
+    },
+    "AZURE_APP_CONFIGURATION_ENDPOINT": {
+      "description": "Azure 应用配置服务的终端节点",
+      "required": true
+    }
+  },
+  "package_name": "@mashriram/azure_mcp_server",
+  "server_name": "mashriram@azure_mcp_server",
+  "homepage": "https://mcpservers.cn/servers/mashriram@azure_mcp_server",
+  "sourceUrl": "https://github.com/mashriram/azure_mcp_server"
+}

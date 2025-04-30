@@ -1,0 +1,16 @@
+{
+  "description": "Brave Search MCP Server 让你能够通过 Claude 使用 Brave 搜索 API，支持网络搜索和本地商业搜索功能。",
+  "vendor": "Model Context Protocol (https://github.com/modelcontextprotocol)",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "BRAVE_API_KEY": {
+      "description": "Brave Search API 密钥，用于访问 Brave 搜索服务",
+      "required": true
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-brave-search",
+  "server_name": "modelcontextprotocol@brave-search",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@brave-search",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search"
+}

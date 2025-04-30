@@ -1,0 +1,32 @@
+{
+  "description": "ABAP-ADT-API MCP-Server 是一个封装了 abap-adt-api 的 Model Context Protocol (MCP) 服务器，用于实现 ABAP 系统与 MCP 客户端之间的无缝通信。",
+  "vendor": "mario-andreschak（https://github.com/mario-andreschak）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "SAP_URL": {
+      "description": "SAP 系统的 URL 地址",
+      "required": true
+    },
+    "SAP_USER": {
+      "description": "SAP 用户名",
+      "required": true
+    },
+    "SAP_PASSWORD": {
+      "description": "SAP 用户密码",
+      "required": true
+    },
+    "SAP_CLIENT": {
+      "description": "SAP 客户端编号（可选）",
+      "required": false
+    },
+    "SAP_LANGUAGE": {
+      "description": "SAP 语言设置（可选）",
+      "required": false
+    }
+  },
+  "package_name": "@mario-andreschak/mcp-abap-abap-adt-api",
+  "server_name": "mario-andreschak@mcp-abap-abap-adt-api",
+  "homepage": "https://mcpservers.cn/servers/mario-andreschak@mcp-abap-abap-adt-api",
+  "sourceUrl": "https://github.com/mario-andreschak/mcp-abap-abap-adt-api"
+}

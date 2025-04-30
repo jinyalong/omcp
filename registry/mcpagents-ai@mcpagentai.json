@@ -1,0 +1,52 @@
+{
+  "description": "MCPAgentAI 是一个基于模型上下文协议(MCP)的标准化工具封装框架，提供统一方式实现和管理多种工具。",
+  "vendor": "MCPAgents-AI (https://github.com/mcpagents-ai/mcpagentai)",
+  "license": "未明确提及",
+  "runtime": "python",
+  "environmentVariables": {
+    "TWITTER_USERNAME": {
+      "description": "Twitter账户用户名",
+      "required": true
+    },
+    "TWITTER_PASSWORD": {
+      "description": "Twitter账户密码",
+      "required": true
+    },
+    "TWITTER_EMAIL": {
+      "description": "Twitter账户邮箱",
+      "required": true
+    },
+    "TWITTER_API_KEY": {
+      "description": "Twitter API密钥",
+      "required": true
+    },
+    "TWITTER_API_SECRET": {
+      "description": "Twitter API密钥的秘密",
+      "required": true
+    },
+    "TWITTER_ACCESS_TOKEN": {
+      "description": "Twitter访问令牌",
+      "required": true
+    },
+    "TWITTER_ACCESS_SECRET": {
+      "description": "Twitter访问令牌的秘密",
+      "required": true
+    },
+    "TWITTER_CLIENT_ID": {
+      "description": "Twitter客户端ID",
+      "required": true
+    },
+    "TWITTER_CLIENT_SECRET": {
+      "description": "Twitter客户端密钥",
+      "required": true
+    },
+    "TWITTER_BEARER_TOKEN": {
+      "description": "Twitter Bearer令牌",
+      "required": true
+    }
+  },
+  "package_name": "mcpagentai",
+  "server_name": "mcpagents-ai@mcpagentai",
+  "homepage": "https://mcpservers.cn/servers/mcpagents-ai@mcpagentai",
+  "sourceUrl": "https://github.com/mcpagents-ai/mcpagentai"
+}

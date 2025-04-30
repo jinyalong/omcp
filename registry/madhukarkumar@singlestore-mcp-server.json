@@ -1,0 +1,40 @@
+{
+  "description": "SingleStore MCP Server 是一个用于与 SingleStore 数据库交互的 Model Context Protocol (MCP) 服务器，提供查询表、描述模式和生成 ER 图等功能。",
+  "vendor": "madhukarkumar（https://smithery.ai/server/@madhukarkumar/singlestore-mcp-server）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "SINGLESTORE_HOST": {
+      "description": "SingleStore 数据库主机地址",
+      "required": true
+    },
+    "SINGLESTORE_PORT": {
+      "description": "SingleStore 数据库端口",
+      "required": true
+    },
+    "SINGLESTORE_USER": {
+      "description": "SingleStore 数据库用户名",
+      "required": true
+    },
+    "SINGLESTORE_PASSWORD": {
+      "description": "SingleStore 数据库密码",
+      "required": true
+    },
+    "SINGLESTORE_DATABASE": {
+      "description": "SingleStore 数据库名称",
+      "required": true
+    },
+    "SSE_ENABLED": {
+      "description": "是否启用 SSE 协议支持，默认为 false",
+      "required": false
+    },
+    "SSE_PORT": {
+      "description": "SSE 协议使用的端口，默认为 3333",
+      "required": false
+    }
+  },
+  "package_name": "@madhukarkumar/singlestore-mcp-server",
+  "server_name": "madhukarkumar@singlestore-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/madhukarkumar@singlestore-mcp-server",
+  "sourceUrl": "https://github.com/madhukarkumar/singlestore-mcp-server"
+}

@@ -1,0 +1,20 @@
+{
+  "description": "DBT CLI MCP Server 是一个封装了 dbt CLI 工具的模型上下文协议 (MCP) 服务器，让 AI 编码代理能够标准化地与 dbt 项目交互。",
+  "vendor": "yourusername（https://github.com/yourusername）",
+  "license": "未明确提及",
+  "runtime": "python",
+  "environmentVariables": {
+    "DBT_PATH": {
+      "description": "dbt 可执行文件路径",
+      "required": false
+    },
+    "ENV_FILE": {
+      "description": "环境文件路径",
+      "required": false
+    }
+  },
+  "package_name": "dbt-cli-mcp",
+  "server_name": "MammothGrowth@dbt-cli-mcp",
+  "homepage": "https://mcpservers.cn/servers/MammothGrowth@dbt-cli-mcp",
+  "sourceUrl": "https://github.com/MammothGrowth/dbt-cli-mcp"
+}

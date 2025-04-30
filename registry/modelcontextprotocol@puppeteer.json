@@ -1,0 +1,16 @@
+{
+  "description": "Puppeteer 是一个 Model Context Protocol 服务器，提供浏览器自动化功能，使大语言模型能够与网页交互、截屏并执行 JavaScript。",
+  "vendor": "Model Context Protocol（无官网链接）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "DOCKER_CONTAINER": {
+      "description": "用于标识是否运行在 Docker 容器中",
+      "required": false
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-puppeteer",
+  "server_name": "modelcontextprotocol@puppeteer",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@puppeteer",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/puppeteer"
+}

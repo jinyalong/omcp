@@ -1,0 +1,11 @@
+{
+  "description": "`@mcpdotdirect/template-mcp-server` 是一个CLI工具，帮助您快速构建Model Context Protocol (MCP) 服务器。",
+  "vendor": "MCP (https://modelcontextprotocol.io/introduction)",
+  "license": "MIT",
+  "runtime": "bun（默认，可修改）",
+  "environmentVariables": {},
+  "package_name": "@mcpdotdirect/template-mcp-server",
+  "server_name": "mcpdotdirect@template-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/mcpdotdirect@template-mcp-server",
+  "sourceUrl": "https://github.com/mcpdotdirect/template-mcp-server"
+}

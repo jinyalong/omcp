@@ -1,0 +1,20 @@
+{
+  "description": "GitLab MCP 服务器提供了 GitLab API 的简便访问，支持项目管理、文件操作和版本控制等功能。",
+  "vendor": "Model Context Protocol (https://modelcontextprotocol.ai/)",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "GITLAB_PERSONAL_ACCESS_TOKEN": {
+      "description": "个人访问令牌",
+      "required": true
+    },
+    "GITLAB_API_URL": {
+      "description": "GitLab API 基础 URL",
+      "required": false
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-gitlab",
+  "server_name": "modelcontextprotocol@gitlab",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@gitlab",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/gitlab"
+}

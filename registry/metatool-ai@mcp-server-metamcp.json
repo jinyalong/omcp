@@ -1,0 +1,20 @@
+{
+  "description": "MetaMCP 是一个代理服务器，可以将多个 MCP 服务器整合为一个统一接口。",
+  "vendor": "MetaMCP (https://metamcp.com)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "METAMCP_API_KEY": {
+      "description": "API密钥，从 MetaMCP 应用程序获取",
+      "required": true
+    },
+    "METAMCP_API_BASE_URL": {
+      "description": "API基础URL，可选配置",
+      "required": false
+    }
+  },
+  "package_name": "@metamcp/mcp-server-metamcp",
+  "server_name": "metatool-ai@mcp-server-metamcp",
+  "homepage": "https://mcpservers.cn/servers/metatool-ai@mcp-server-metamcp",
+  "sourceUrl": "https://github.com/metatool-ai/mcp-server-metamcp"
+}

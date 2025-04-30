@@ -1,0 +1,20 @@
+{
+  "description": "Outline MCP 服务器是一个工具，允许 AI 代理通过 Model Context Protocol (MCP) 与 Outline 知识库平台的 API 进行交互。",
+  "vendor": "mmmeff（https://github.com/mmmeff）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "OUTLINE_API_KEY": {
+      "description": "你的 Outline API 密钥",
+      "required": true
+    },
+    "OUTLINE_API_URL": {
+      "description": "自定义 Outline API URL，用于自托管实例",
+      "required": false
+    }
+  },
+  "package_name": "outline-mcp-server",
+  "server_name": "mmmeff@outline-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/mmmeff@outline-mcp-server",
+  "sourceUrl": "https://github.com/mmmeff/outline-mcp-server"
+}

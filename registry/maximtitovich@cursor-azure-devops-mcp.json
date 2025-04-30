@@ -1,0 +1,24 @@
+{
+  "description": "`cursor-azure-devops-mcp` 是一个 Model Context Protocol (MCP) 服务器，用于将 Azure DevOps 与 Cursor IDE 集成。",
+  "vendor": "无明确厂商或组织（参考npm链接：https://www.npmjs.com/package/cursor-azure-devops-mcp）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "AZURE_DEVOPS_ORG_URL": {
+      "description": "Azure DevOps 组织 URL，例如 https://dev.azure.com/your-organization",
+      "required": true
+    },
+    "AZURE_DEVOPS_TOKEN": {
+      "description": "Azure DevOps 个人访问令牌",
+      "required": true
+    },
+    "AZURE_DEVOPS_PROJECT": {
+      "description": "Azure DevOps 项目名称",
+      "required": true
+    }
+  },
+  "package_name": "cursor-azure-devops-mcp",
+  "server_name": "maximtitovich@cursor-azure-devops-mcp",
+  "homepage": "https://mcpservers.cn/servers/maximtitovich@cursor-azure-devops-mcp",
+  "sourceUrl": "https://github.com/maximtitovich/cursor-azure-devops-mcp"
+}

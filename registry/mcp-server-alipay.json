@@ -1,0 +1,48 @@
+{
+  "description": "支付宝开放平台提供的MCP Server，用于集成交易创建、查询、退款等支付能力到LLM应用中。",
+  "vendor": "支付宝开放平台（https://open.alipay.com/）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "AP_APP_ID": {
+      "description": "商户应用ID",
+      "required": true
+    },
+    "AP_APP_KEY": {
+      "description": "商户应用私钥",
+      "required": true
+    },
+    "AP_PUB_KEY": {
+      "description": "支付宝公钥",
+      "required": true
+    },
+    "AP_RETURN_URL": {
+      "description": "同步结果返回地址",
+      "required": false
+    },
+    "AP_NOTIFY_URL": {
+      "description": "异步结果通知地址",
+      "required": false
+    },
+    "AP_ENCRYPTION_ALGO": {
+      "description": "签名方式(RSA2/RSA)，默认RSA2",
+      "required": false
+    },
+    "AP_CURRENT_ENV": {
+      "description": "环境设置(prod/sandbox)，默认prod",
+      "required": false
+    },
+    "AP_SELECT_TOOLS": {
+      "description": "启用工具，默认all",
+      "required": false
+    },
+    "AP_LOG_ENABLED": {
+      "description": "是否记录日志，默认true",
+      "required": false
+    }
+  },
+  "package_name": "@alipay/mcp-server-alipay",
+  "server_name": "mcp-server-alipay",
+  "homepage": "https://mcpservers.cn/servers/mcp-server-alipay",
+  "sourceUrl": "https://www.npmjs.com/package/@alipay/mcp-server-alipay"
+}

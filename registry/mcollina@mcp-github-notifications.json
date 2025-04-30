@@ -1,0 +1,16 @@
+{
+  "description": "MCP 服务器允许 AI 助手通过自然语言命令管理 GitHub 通知。",
+  "vendor": "yourusername（https://github.com/yourusername）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "GITHUB_TOKEN": {
+      "description": "GitHub 个人访问令牌，需具备 notifications 或 repo 权限。",
+      "required": true
+    }
+  },
+  "package_name": "github-notifications-mcp-server",
+  "server_name": "mcollina@mcp-github-notifications",
+  "homepage": "https://mcpservers.cn/servers/mcollina@mcp-github-notifications",
+  "sourceUrl": "https://github.com/mcollina/mcp-github-notifications"
+}

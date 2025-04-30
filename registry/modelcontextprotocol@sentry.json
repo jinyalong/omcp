@@ -1,0 +1,16 @@
+{
+  "description": "mcp-server-sentry 是一个模型上下文协议(MCP)服务器，用于从 Sentry.io 检索和分析错误报告、堆栈跟踪及其他调试信息。",
+  "vendor": "未明确提及（可能为社区项目）",
+  "license": "MIT",
+  "runtime": "python",
+  "environmentVariables": {
+    "YOUR_SENTRY_TOKEN": {
+      "description": "Sentry.io 的认证令牌，用于访问问题详情和调试信息。",
+      "required": true
+    }
+  },
+  "package_name": "mcp-server-sentry",
+  "server_name": "modelcontextprotocol@sentry",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@sentry",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/sentry"
+}

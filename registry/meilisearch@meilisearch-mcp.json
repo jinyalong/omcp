@@ -1,0 +1,20 @@
+{
+  "description": "一个通过 Claude 等 LLM 接口与 Meilisearch 交互的 Model Context Protocol (MCP) 服务器",
+  "vendor": "未明确提及（可能属于开源社区贡献）",
+  "license": "MIT",
+  "runtime": "python",
+  "environmentVariables": {
+    "MEILI_HTTP_ADDR": {
+      "description": "Meilisearch 实例的 HTTP 地址，默认为 http://localhost:7700",
+      "required": true
+    },
+    "MEILI_MASTER_KEY": {
+      "description": "可选的 Meilisearch API 密钥，用于认证",
+      "required": false
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-meilisearch",
+  "server_name": "meilisearch@meilisearch-mcp",
+  "homepage": "https://mcpservers.cn/servers/meilisearch@meilisearch-mcp",
+  "sourceUrl": "https://github.com/meilisearch/meilisearch-mcp"
+}

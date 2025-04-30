@@ -1,0 +1,11 @@
+{
+  "description": "MCP-Go 是模型上下文协议(Model Context Protocol)的 Go 语言实现，能使 LLM 应用程序与外部数据源和工具无缝集成。",
+  "vendor": "mark3labs (https://github.com/mark3labs)",
+  "license": "未明确提及",
+  "runtime": "go",
+  "environmentVariables": {},
+  "package_name": "github.com/mark3labs/mcp-go",
+  "server_name": "mark3labs@mcp-go",
+  "homepage": "https://mcpservers.cn/servers/mark3labs@mcp-go",
+  "sourceUrl": "https://github.com/mark3labs/mcp-go"
+}

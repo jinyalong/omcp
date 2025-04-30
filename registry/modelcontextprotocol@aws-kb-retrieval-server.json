@@ -1,0 +1,24 @@
+{
+  "description": "此MCP服务器通过Bedrock Agent Runtime从AWS知识库中检索信息，支持RAG（检索增强生成）功能。",
+  "vendor": "Model Context Protocol (https://modelcontextprotocol.ai/)",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "AWS_ACCESS_KEY_ID": {
+      "description": "AWS访问密钥ID",
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "AWS秘密访问密钥",
+      "required": true
+    },
+    "AWS_REGION": {
+      "description": "AWS区域",
+      "required": true
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-aws-kb-retrieval",
+  "server_name": "modelcontextprotocol@aws-kb-retrieval-server",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@aws-kb-retrieval-server",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server"
+}

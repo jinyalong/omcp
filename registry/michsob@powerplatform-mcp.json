@@ -1,0 +1,28 @@
+{
+  "description": "PowerPlatform MCP 服务器提供智能访问 PowerPlatform/Dataverse 实体和记录的能力，具有上下文感知的帮助、实体探索和元数据访问功能。",
+  "vendor": "未知（无官网信息）",
+  "license": "未知",
+  "runtime": "node",
+  "environmentVariables": {
+    "POWERPLATFORM_URL": {
+      "description": "PowerPlatform/Dataverse 环境的 URL",
+      "required": true
+    },
+    "POWERPLATFORM_CLIENT_ID": {
+      "description": "Azure 应用的客户端 ID",
+      "required": true
+    },
+    "POWERPLATFORM_CLIENT_SECRET": {
+      "description": "Azure 应用的客户端密钥",
+      "required": true
+    },
+    "POWERPLATFORM_TENANT_ID": {
+      "description": "Azure 租户 ID",
+      "required": true
+    }
+  },
+  "package_name": "powerplatform-mcp",
+  "server_name": "michsob@powerplatform-mcp",
+  "homepage": "https://mcpservers.cn/servers/michsob@powerplatform-mcp",
+  "sourceUrl": "https://github.com/michsob/powerplatform-mcp"
+}

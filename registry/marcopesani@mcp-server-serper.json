@@ -1,0 +1,16 @@
+{
+  "description": "通过Serper API提供google_search和scrape功能的MCP服务器。",
+  "vendor": "marcopesani（https://github.com/marcopesani）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "SERPER_API_KEY": {
+      "description": "Serper API密钥，用于访问搜索功能。",
+      "required": true
+    }
+  },
+  "package_name": "@marcopesani/mcp-server-serper",
+  "server_name": "marcopesani@mcp-server-serper",
+  "homepage": "https://mcpservers.cn/servers/marcopesani@mcp-server-serper",
+  "sourceUrl": "https://github.com/marcopesani/mcp-server-serper"
+}

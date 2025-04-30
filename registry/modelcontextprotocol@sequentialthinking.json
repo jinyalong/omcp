@@ -1,0 +1,11 @@
+{
+  "description": "顺序思维 MCP 服务器通过结构化思维流程提供动态、反思性的问题解决工具，可将复杂问题分解为可管理步骤。",
+  "vendor": "顺序思维（未提供官网链接）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {},
+  "package_name": "@modelcontextprotocol/server-sequential-thinking",
+  "server_name": "modelcontextprotocol@sequentialthinking",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@sequentialthinking",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/sequentialthinking"
+}

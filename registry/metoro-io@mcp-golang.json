@@ -1,0 +1,16 @@
+{
+  "description": "mcp-golang 是 Model Context Protocol 的 Go 语言实现，用于创建 MCP 服务端和客户端。",
+  "vendor": "metoro-io（https://github.com/metoro-io）",
+  "license": "未明确提及",
+  "runtime": "go",
+  "environmentVariables": {
+    "MCP_SERVER_ENV": {
+      "description": "可选环境变量，用于配置 MCP Server 的运行环境。",
+      "required": false
+    }
+  },
+  "package_name": "github.com/metoro-io/mcp-golang",
+  "server_name": "metoro-io@mcp-golang",
+  "homepage": "https://mcpservers.cn/servers/metoro-io@mcp-golang",
+  "sourceUrl": "https://github.com/metoro-io/mcp-golang"
+}

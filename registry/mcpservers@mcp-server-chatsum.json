@@ -1,0 +1,16 @@
+{
+  "description": "mcp-server-chatsum 是一个 MCP 服务器，用于查询和总结您的聊天消息。",
+  "vendor": "idoubi (https://bento.me/idoubi)",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "CHAT_DB_PATH": {
+      "description": "聊天数据库文件路径",
+      "required": true
+    }
+  },
+  "package_name": "mcp-server-chatsum",
+  "server_name": "mcpservers@mcp-server-chatsum",
+  "homepage": "https://mcpservers.cn/servers/mcpservers@mcp-server-chatsum",
+  "sourceUrl": "https://github.com/mcpservers/mcp-server-chatsum"
+}

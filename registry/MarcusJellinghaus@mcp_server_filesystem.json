@@ -1,0 +1,16 @@
+{
+  "description": "MCP 文件系统服务器让 AI 助手能够安全地对指定项目目录中的文件进行操作。",
+  "vendor": "Marcus Jellinghaus (https://github.com/MarcusJellinghaus)",
+  "license": "未明确提及",
+  "runtime": "python",
+  "environmentVariables": {
+    "PYTHONPATH": {
+      "description": "Python 模块搜索路径，需要包含 mcp_server_filesystem 的根目录。",
+      "required": true
+    }
+  },
+  "package_name": "mcp_server_filesystem",
+  "server_name": "MarcusJellinghaus@mcp_server_filesystem",
+  "homepage": "https://mcpservers.cn/servers/MarcusJellinghaus@mcp_server_filesystem",
+  "sourceUrl": "https://github.com/MarcusJellinghaus/mcp_server_filesystem"
+}

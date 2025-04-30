@@ -1,0 +1,24 @@
+{
+  "description": "Spotify MCP 服务器是一个轻量级的模型上下文协议(MCP)服务器，允许 AI 助手控制 Spotify 播放和管理播放列表。",
+  "vendor": "marcelmarais（https://github.com/marcelmarais）",
+  "license": "未明确提及",
+  "runtime": "node",
+  "environmentVariables": {
+    "SPOTIFY_CLIENT_ID": {
+      "description": "Spotify 应用的 Client ID",
+      "required": true
+    },
+    "SPOTIFY_CLIENT_SECRET": {
+      "description": "Spotify 应用的 Client Secret",
+      "required": true
+    },
+    "SPOTIFY_REDIRECT_URI": {
+      "description": "Spotify 应用的重定向 URI",
+      "required": true
+    }
+  },
+  "package_name": "未明确提及",
+  "server_name": "marcelmarais@spotify-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/marcelmarais@spotify-mcp-server",
+  "sourceUrl": "https://github.com/marcelmarais/spotify-mcp-server"
+}

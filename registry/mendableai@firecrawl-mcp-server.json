@@ -1,0 +1,16 @@
+{
+  "description": "MCP server for Firecrawl integration",
+  "vendor": "Mendable AI (https://mendable.ai)",
+  "sourceUrl": "https://github.com/mendableai/firecrawl-mcp",
+  "homepage": "https://mcpservers.cn/servers/mendableai@firecrawl-mcp-server",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "FIRECRAWL_API_KEY": {
+      "description": "API key for Firecrawl access",
+      "required": true
+    }
+  },
+  "package_name": "firecrawl-mcp",
+  "server_name": "mendableai@firecrawl-mcp-server"
+} 

@@ -1,0 +1,20 @@
+{
+  "description": "Slack MCP 服务器使 Claude 能够与 Slack 工作区进行交互，包括查看频道、发送消息和添加反应等功能。",
+  "vendor": "Model Context Protocol（如适用）",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "SLACK_BOT_TOKEN": {
+      "description": "Slack 应用的 Bot Token，以 xoxb- 开头",
+      "required": true
+    },
+    "SLACK_TEAM_ID": {
+      "description": "Slack 工作区的团队 ID，以 T 开头",
+      "required": true
+    }
+  },
+  "package_name": "@modelcontextprotocol/server-slack",
+  "server_name": "modelcontextprotocol@slack",
+  "homepage": "https://mcpservers.cn/servers/modelcontextprotocol@slack",
+  "sourceUrl": "https://github.com/modelcontextprotocol/servers/blob/main/src/slack"
+}

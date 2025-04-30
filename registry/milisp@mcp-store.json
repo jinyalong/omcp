@@ -1,0 +1,11 @@
+{
+  "description": "MCP 商店让您只需两步即可将模型上下文协议 (MCP) 服务器添加到您的 MCP 客户端。",
+  "vendor": "modelcontextprotocol (https://github.com/modelcontextprotocol)",
+  "license": "BSD",
+  "runtime": "未明确提及",
+  "environmentVariables": {},
+  "package_name": "未明确提及",
+  "server_name": "milisp@mcp-store",
+  "homepage": "https://mcpservers.cn/servers/milisp@mcp-store",
+  "sourceUrl": "https://github.com/milisp/mcp-store"
+}

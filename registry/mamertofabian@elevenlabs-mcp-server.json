@@ -1,0 +1,40 @@
+{
+  "description": "ElevenLabs MCP 服务器是一个集成了 ElevenLabs 文本转语音 API 的服务，可用于从文本生成高质量语音。",
+  "vendor": "ElevenLabs (https://elevenlabs.io)",
+  "license": "MIT",
+  "runtime": "node",
+  "environmentVariables": {
+    "ELEVENLABS_API_KEY": {
+      "description": "ElevenLabs API 密钥",
+      "required": true
+    },
+    "ELEVENLABS_VOICE_ID": {
+      "description": "用于生成语音的声音 ID",
+      "required": true
+    },
+    "ELEVENLABS_MODEL_ID": {
+      "description": "使用的模型 ID（例如 eleven_flash_v2）",
+      "required": true
+    },
+    "ELEVENLABS_STABILITY": {
+      "description": "语音稳定性参数",
+      "required": false
+    },
+    "ELEVENLABS_SIMILARITY_BOOST": {
+      "description": "相似性增强参数",
+      "required": false
+    },
+    "ELEVENLABS_STYLE": {
+      "description": "风格参数",
+      "required": false
+    },
+    "ELEVENLABS_OUTPUT_DIR": {
+      "description": "输出目录路径",
+      "required": false
+    }
+  },
+  "package_name": "elevenlabs-mcp-server",
+  "server_name": "mamertofabian@elevenlabs-mcp-server",
+  "homepage": "https://mcpservers.cn/servers/mamertofabian@elevenlabs-mcp-server",
+  "sourceUrl": "https://github.com/mamertofabian/elevenlabs-mcp-server"
+}
