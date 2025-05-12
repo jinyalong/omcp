@@ -25,15 +25,15 @@ OMCP 管理器是一个用于管理模型上下文协议（MCP）服务器的包
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/omcp-manager.git
-cd omcp-manager
+git clone git@github.com:jinyalong/omcp.git
+cd omcp
 
 # 创建并激活虚拟环境
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 安装依赖
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 
 # 安装包
 pip install -e .

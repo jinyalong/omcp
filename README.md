@@ -25,15 +25,15 @@ OMCP Manager is a package manager for Model Context Protocol (MCP) servers. It p
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/omcp-manager.git
-cd omcp-manager
+git clone git@github.com:jinyalong/omcp.git
+cd omcp
 
 # Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 
 # Install the package
 pip install -e .
