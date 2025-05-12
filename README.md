@@ -23,7 +23,12 @@ OMCP Manager is a package manager for Model Context Protocol (MCP) servers. It p
 
 ### Installation
 
+You can quickly install OMCP Manager from PyPI:
+
 ```bash
+pip install omcp-manager
+```
+
 # Clone the repository
 git clone git@github.com:jinyalong/omcp.git
 cd omcp

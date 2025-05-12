@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mcp-manager",
+    name="omcp-manager",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -13,12 +13,12 @@ setup(
             "omcp=mcp_manager.cli:app",
         ],
     },
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="A package manager for MCP Servers",
-    long_description=open("README.md").read(),
+    author="金亚龙",
+    author_email="jinyalong.jyl@antgroup.com",
+    description="OMCP 管理器：用于管理模型上下文协议（MCP）服务器的包管理器",
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/mcp-manager",
+    url="https://github.com/jinyalong/omcp",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

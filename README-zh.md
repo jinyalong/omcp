@@ -23,7 +23,12 @@ OMCP 管理器是一个用于管理模型上下文协议（MCP）服务器的包
 
 ### 安装
 
+你可以通过 PyPI 一键安装 OMCP 管理器：
+
 ```bash
+pip install omcp-manager
+```
+
 # 克隆仓库
 git clone git@github.com:jinyalong/omcp.git
 cd omcp
